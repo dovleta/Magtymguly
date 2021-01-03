@@ -1,1 +1,7 @@
-h3 {color: rgb(127, 178, 255);}
+.green {
+  color: darkcyan;
+}
+
+.large-font {
+  font-size: 42px;
+}
