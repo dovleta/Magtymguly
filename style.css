@@ -5,3 +5,8 @@
 .large-font {
   font-size: 42px;
 }
+
+#navigation {
+  margin-top: 60; 
+  margin-bottom: 60;
+}
