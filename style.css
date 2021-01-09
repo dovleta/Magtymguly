@@ -12,11 +12,11 @@ p {
 
 #first_paragraph {
   font-weight: bold;
-  color: brown;
+  color: #e76f51;
   }
 
 .green {
-  color: darkcyan;
+  color: #2a9d8f;
 }
 
 .large-font {
@@ -42,7 +42,7 @@ h1.green {
 }
 
 ol {
-color: green;
+color: #40916c;
 }
 
 .durmushy {
@@ -59,4 +59,27 @@ ol.durmushy {
 
 #first-heading {
   text-align: center;
+}
+
+/* dark mode*/
+
+body.dark {
+  background-color: #353535;
+}
+
+body.dark h1 {
+  color: #FFFFFF !important; 
+}
+
+body.dark a {
+  color: #FDFCDC;
+}
+
+body.dark * {
+  color: rgb(255,255,255)
+}
+
+body.dark p,
+body.dark ul {
+  opacity: 0.8;
 }
