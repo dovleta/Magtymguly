@@ -5,8 +5,9 @@
    
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body class="dark">
-    <header>
+  <body id="container" class="dark">
+    <header style="position: relative;">
+        <button onclick="SwitchMode()" style="position: fixed; top: 20px; right: 20px; z-index: 10;">Switch</button>
     <section id="header">
       <h1 class="green large-font" id="first-heading" style="color: black;">Magtymguly Pyragy'nin Hayati</h1>
       <p id="first_paragraph"><strong>Magtymguly Pyragy</strong> (Persian: مختومقلی فراغی Makhtumqoli Faraghi; Turkmen: Magtymguly Pyragy; Turkish: Mahtumkulu Firaki;[20] c. 1724-1733 – c. 1807) was a Turkmen spiritual leader, philosophical poet, and sufi who is considered to be the father of the <a href="https://en.wikipedia.org/wiki/Culture_of_Turkmenistan#Literature"target="_blank">Turkmen literature</a>s and the most famous figure in Turkmen literary history.
@@ -58,7 +59,6 @@
         </section>
     </section>
     
-    <nav><a href="#navigation">Menuye git</a></nav>
     <section id="poem">
       <h2>Trkmeni</h2>
         <ul>
@@ -72,7 +72,14 @@
       <footer>
           copyright 2020- <a href="../about-us.html">designed by bootcamp students</a><br>
           <a href="#">Sayfa basina don</a>
+          <a href="#navigation" style="position: fixed; bottom: 20px; right: 20px; z-index: 10; background-color: blue;">Ana Menuye git</a>
       </footer>
       
+      <script>
+        function SwitchMode() {
+          document.getElementById('container').classList.toggle('dark')
+        }
+      </script>
+
   </body>
 </html> 

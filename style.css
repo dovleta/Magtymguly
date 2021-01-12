@@ -63,6 +63,10 @@ ol.durmushy {
 
 /* dark mode*/
 
+body.dark * {
+  color: rgb(255,255,255)
+}
+
 body.dark {
   background-color: #353535;
 }
@@ -75,11 +79,11 @@ body.dark a {
   color: #FDFCDC;
 }
 
-body.dark * {
-  color: rgb(255,255,255)
-}
-
 body.dark p,
 body.dark ul {
   opacity: 0.8;
+}
+
+body.dark button {
+  color: black;
 }
